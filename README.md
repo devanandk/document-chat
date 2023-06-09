@@ -40,6 +40,14 @@ To install the application, please follow these steps:
 
 3. Obtain an API key from OpenAI & Huggingface (If your are using OpenAI or Huggingface) and add it to the `.env` file in the project directory.
 
+4. Please create the following directories in your local environment for storing the database and LLM models -
+```
+./model_cache
+./documents_cache
+./tmp_documents
+./logs
+```
+
 ## Usage
 -----
 To use the application, follow these steps:
