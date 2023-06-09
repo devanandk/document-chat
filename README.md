@@ -46,9 +46,9 @@ To use the application, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the API keys to the `.env` file (as required).
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
+2. Run the `document_chat_retrieval_qa.py` file using the Streamlit CLI. Execute the following command:
    ```
-   streamlit run app.py
+   streamlit run document_chat_retrieval_qa.py
    ```
 
 3. The application will launch in your default web browser, displaying the user interface.
@@ -59,4 +59,6 @@ To use the application, follow these steps:
 
 ## Contributing
 ------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+This repository is intended for educational purposes and does not accept further contributions. Feel free to utilize and enhance the app based on your own requirements.
+
+> Please note that running the GPT4ALL & Huggingface embedding models on local computer is very slow without a built in GPU with CUDA support. You will need to install the Cuda toolkit from Nvidia on supported machine and compile/install pytorch for cuda support in order to take advantage of GPU support.
