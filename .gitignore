@@ -173,3 +173,5 @@ documents_cache/*
 
 # Local logs directory
 logs/*
+
+.vscode
